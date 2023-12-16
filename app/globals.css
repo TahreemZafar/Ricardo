@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.md-gray {
+    --tw-bg-opacity: 1;
+    background-color: rgb(232 235 237 / var(--tw-bg-opacity));
+}
+
+.ft {
+    --tw-bg-opacity: 1;
+    background-color: rgb(234 235 237 / var(--tw-bg-opacity));
+}
+
+.btn-d {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 27 43 / var(--tw-bg-opacity));
+}
+
+html {
+    --line-color: #e5e7eb;
+}
+
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+}
